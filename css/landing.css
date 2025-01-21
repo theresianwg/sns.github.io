@@ -171,7 +171,7 @@ padding: 65px 20px;
 }
 
 .landing-ulasan {
-background-color:rgba(214, 193, 183, 0.33);
+background-color:rgb(255, 250, 246);
 background-image: var(--section-bg-image);
 background-position: var(--secton-overlay-position);
 background-attachment: var(--section-overlay-attachment);
@@ -182,7 +182,7 @@ padding: 65px 20px;
 
 .landing-katalog {
 
-background-color:rgba(255, 250, 246, 1);
+background-color:rgba(214, 193, 183, 0.33);
 background-image: var(--section-bg-image);
 background-position: var(--secton-overlay-position);
 background-attachment: var(--section-overlay-attachment);
@@ -204,7 +204,7 @@ padding: 65px 20px;
 
 .landing-kontak {
 
-background-color:rgba(255, 250, 246, 1);
+background-color:rgba(214, 193, 183, 0.33);
 background-image: var(--section-bg-image);
 background-position: var(--secton-overlay-position);
 background-attachment: var(--section-overlay-attachment);
@@ -504,7 +504,7 @@ padding: 65px 20px;
 padding: 0 20px;
 }
 
-.sn-benefit-wrap {
+/* .sn-benefit-wrap {
 h4 {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -526,7 +526,7 @@ p {
 .sn-benefit-wrap img {
 margin-bottom: 8px;
 border-radius: var(--img-radius);
-}
+} */
 
 
 .sn-container-terlaris {
@@ -813,10 +813,10 @@ margin-top: 0;
 --arrow-color: #1b1b1b;
 }
 
-#sn-benefits {
+/* #sn-benefits {
 color: #000000;
 padding: 40px 0;
-}
+} */
 
 #sn-product {
 --btn-bg: #ff9900;
@@ -1071,7 +1071,7 @@ color: #ccc;
   .sn-gallery,
   .sn-desc,
   .sn-feature-wrap,
-  .sn-benefit-wrap,
+  /* .sn-benefit-wrap, */
   .sn-comment,
   .sn-package-wrap {
     flex-basis: 100%;
