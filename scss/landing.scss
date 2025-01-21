@@ -1,0 +1,69 @@
+$primary-color: rgba(240, 223, 208, 1);
+$secondary-color: #fff;
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $primary-color;
+    padding: 1rem;
+
+    .brand {
+        display: flex;
+        align-items: center;
+        
+        img.sn-img {
+            width: 50px;  /* Atur ukuran lebar logo sesuai kebutuhan */
+            height: auto; /* Menjaga proporsi logo */
+            transform: rotate(10deg); /* Membalik rotasi agar logo tetap lurus */
+        }
+        
+    }
+
+    .nav-links
+
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+
+        li {
+            a {
+                color: $secondary-color;
+                text-decoration: none;
+                transform: rotate(-10deg); /* Teks miring */
+                &:hover {
+                    color: lighten($secondary-color, 20%);
+                }
+            }
+        }
+    }
+}
+
+// Responsive Design
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        gap: 1rem;
+
+        li {
+            a {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

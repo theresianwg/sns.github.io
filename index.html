@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Fragrance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/landing.css">
+    <link rel="shortcut icon" href="images/logo_sns.png" />
+
+</head>
+<script>
+    function toggleMenu() {
+    const navbar = document.querySelector('.navbar');
+    const navLinks = document.querySelector('.nav-links');
+    
+    navLinks.classList.toggle('show');
+    navbar.classList.toggle('nav-expanded');
+    }
+</script>
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <img src="images/logo_sns.png" alt="" class="sn-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#sn-banner">Tentang</a></li>
+            <li><a href="#sn-packages">Katalog</a></li>
+            <li><a href="#sn-benefits">Produk Terlaris</a></li>
+            <li><a href="#sn-reviews">Ulasan</a></li>
+            <li><a href="#sn-kontak">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </nav>
+
+<!-- -------------------------------------------------- PROBLEM --------------------------------------------------  -->
+<main>
+<section id="sn-about" class="about">
+    <div class="sn-container text-center">
+        <div class="sn-about-in">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- -------------------------------------------------- TENTANG + VIDEO--------------------------------------------------  -->
+<section id="sn-banner" class="landing-tentang">
+    <div class="sn-container vcenter">
+        <div class="sn-banner-left">
+            <h1>Tentang</h1>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="sn-banner-right">
+            <video width="400" height="500" autoplay muted loop>
+                <source src="videos/video_sns.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+
+<!-- -------------------------------------------------- PRODUK TERLARIS --------------------------------------------------  -->
+<section id="sn-benefits" class="landing-terlaris">
+    <div class="sn-container text-center">
+        <div class="sn-title">
+            <h2>Produk Terlaris</h2>
+        </div>
+    </div>
+    <div class="sn-container-terlaris">
+        <div class="sn-benefit-wrap">
+            <div class="sn-benefit-img">
+                <img src="images/cocoa_amore_top.png" alt="Placeholder Image" class="sn-img">
+            </div>
+            <h4>Cocoa Amore</h4>
+            <p>COCOA AMORE, parfum dengan aroma manis yang penuh romansa.
+                Setiap semprotannya berasa mengajak menjelajahi dunia sensualitas
+                yang menggoda. Parfum ini menggabungkan kelezatan aroma Sweet
+                Chocolate yang berpadu sempurna dengan sentuhan lembut Sweet
+                Vanilla, keharuman Fresh Pear, Jasmine dan kehangatan Cedarwood
+                yang memikat. Di balik harmoni yang mempesona ini, terdapat
+                sentuhan Tonka Bean yang menambahkan kelembutan pada aroma ini.
+                Selain itu, tambahan aroma Coffee memberikan kedalaman rasa manis
+                yang luar biasa serta menciptakan pengalaman olfaktori yang tak
+                terlupakan.</p>
+        </div>
+        <div class="sn-benefit-wrap">
+            <div class="sn-benefit-img">
+                <img src="images/tranquility_forte_top.png" alt="Placeholder Image" class="sn-img">
+            </div>
+            <h4>Tranquility Forte</h4>
+            <p>Nikmati keanggunan TRANQUILITY FORTE, seperti sebuah harmoni
+                yang sangat tenang. Dimulai dengan Top Notes yang memikat dari
+                Rose dan Jasmine yang lembut, Peony yang mekar indah, serta
+                sentuhan halus Raspberry yang manis. Saat memasuki Middle Notes
+                dari parfum ini, akan disambut oleh perpaduan anggun dari citrus yang
+                segar, sweet orange yang ceria, violet yang elegan, peach yang lembut,
+                dan esensi menenangkan ylang-ylang yang mempesona. Perjalanan
+                aromatik ini berakhir dengan Based Notes yang bertahan lama dan
+                menenangkan, di mana aroma musky yang hangat berpadu dengan
+                daya tarik Sweet Vanilla sehingga meninggalkan kesan ketenangan
+                yang mendalam.</p>
+        </div>
+        <div class="sn-benefit-wrap">
+            <div class="sn-benefit-img">
+                <img src="images/tranquility_memories_top.png" alt="Placeholder Image" class="sn-img">
+            </div>
+            <h4>Tranquility Memories</h4>
+            <p>Rasakan ketenangan dengan TRANQUILITY MEMORIES, sebuah
+                parfum yang mengabadikan esensi kedamaian dan momen-momen
+                berharga. Parfum ini dibuka dengan kesegaran Mandarin Orange dan
+                Orange Blossom, memberikan sentuhan awal yang segar dan penuh
+                semangat. Kemudian, hadir perpaduan harmonis dari Tuberose, Lily,
+                Rose, Melon, dan Ylang Ylang, menciptakan simfoni bunga yang
+                anggun dan mempesona. Di akhir, aroma dari parfum ini ditutup
+                dengan kehangatan dari Musk, Vanilla, Sandalwood, dan Cedar,
+                memberikan sentuhan akhir yang lembut dan abadi, meninggalkan jejak
+                elegansi dan ketenangan. TRANQUILITY MEMORIES adalah teman
+                sempurna bagi mereka yang menginginkan ketenangan dan
+                keanggunan di setiap momen.</p>
+        </div>
+    </div>
+</section>
+
+<!-- -------------------------------------------------- KATALOG --------------------------------------------------  -->
+
+<section id="sn-packages" class="landing-katalog">
+    <div class="sn-container text-center">
+        <div class="sn-title">
+            <h2>Katalog</h2>
+        </div>
+    </div>
+
+<!-- PRODUK Tranquility -->
+ 
+<div class="sn-container-katalog text-center">
+<div class="sn-package-wrap">
+    <h4>Tranquility</h4>
+    <div class="sn-rating">
+        <div class="sn-stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+    </div>
+        <p>Nilai 5.0 / 5.0</p>
+    </div>
+    <div class="sn-image-container">
+        <img src="images/tranquility_katalog.jpeg" alt="" class="sn-img-katalog">
+        <div class="sn-discount-circle">-30%</div>
+    </div>
+
+    <div class="sn-price">
+        <div id="price">Rp 62.300</div>
+        <div id="old-price">Rp 89.000</div>
+    </div>
+
+    <div class="sn-paket">
+        <p> Lebih hemat! Beli 3 dapat tambahan diskon 10% </p>
+    </div>
+        <ul class="sn-list">
+            <li><span>TOP NOTES</span> : Fruity</li>
+            <li><span>MIDDLE NOTES</span> : Orchid, Jasmine</li>
+            <li><span>BASE NOTES</span> : Sweet Vanilla, Sweet Chocolate, Cedarwood</li>
+        </ul>
+    <a href="https://s.shopee.co.id/1VgFo7he7U" class="sn-btn-katalog-shopee">
+        <img src="images/logo_shopee_order.png" alt="Shopee">
+        <span>Pesan Melalui Shopee</span>
+    </a>
+    <a href="https://wa.me/6287845351334" class="sn-btn-katalog-wa">
+        <img src="images/logo_wa_order.png" alt="WhatsApp">
+        <span>Pesan Melalui WhatsApp</span>
+    </a>
+</div>
+
+
+<!-- PRODUK 1 Tranquility Forte -->
+        <div class="sn-package-wrap">
+            <h4>Tranquility Forte</h4>
+            <div class="sn-rating">
+                <div class="sn-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+            </div>
+                <p>Nilai 5.0 / 5.0</p>
+            </div>
+            <div class="sn-image-container">
+                <img src="images/tranquility-forte-katalog.jpeg" alt="" class="sn-img-katalog">
+                <div class="sn-discount-circle">-30%</div>
+            </div>
+            <div class="sn-price">
+                <div id="price">Rp 62.300</div>
+                <div id="old-price">Rp 89.000</div>
+            </div>
+            <div class="sn-paket">
+                <p> Lebih hemat! Beli 3 dapat tambahan diskon 10% </p>
+            </div>
+                <ul class="sn-list">
+                    <li><span>TOP NOTES</span> : Rose, Peony, Jasmine, Raspberry</li>
+                    <li><span>MIDDLE NOTES</span> : Citrus, Sweet Orange, Violet, Peach, Ylang Ylang</li>
+                    <li><span>BASE NOTES</span> :  Musk, Vanilla</li>
+                </ul>
+            <a href="https://s.shopee.co.id/30UwSLTDUb" class="sn-btn-katalog-shopee">
+                <img src="images/logo_shopee_order.png" alt="Shopee">
+                <span>Pesan Melalui Shopee</span>
+            </a>
+
+            <a href="https://wa.me/6287845351334" class="sn-btn-katalog-wa">
+                <img src="images/logo_wa_order.png" alt="WhatsApp">
+                <span>Pesan Melalui WhatsApp</span>
+            </a>
+        </div>
+
+
+<!-- PRODUK 3 Tranquility Memories -->
+        <div class="sn-package-wrap">
+            <h4>Tranquility Memories</h4>
+            <div class="sn-rating">
+                <div class="sn-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+            </div>
+                <p>Nilai 5.0 / 5.0</p>
+            </div>
+            <div class="sn-image-container">
+                <img src="images/tranquility_memories_katalog.jpeg" alt="" class="sn-img-katalog">
+                <div class="sn-discount-circle">-30%</div>
+            </div>
+
+            <div class="sn-price">
+                <div id="price">Rp 69.300</div>
+                <div id="old-price">Rp 99.000</div>
+            </div>
+
+            <div class="sn-paket">
+                <p> Lebih hemat! Beli 3 dapat tambahan diskon 10% </p>
+            </div>
+                <ul class="sn-list">
+                    <li><span>TOP NOTES</span> :  Mandarin Orange, Orange Blossom</li>
+                    <li><span>MIDDLE NOTES</span> : Tuberose, Lily, Rose, Melon, Ylang Ylang</li>
+                    <li><span>BASE NOTES</span> :  Musk, Vanilla, Sandalwood, Cedar</li>
+                </ul>
+            <a href="https://s.shopee.co.id/4fdARSPiS0" class="sn-btn-katalog-shopee">
+                <img src="images/logo_shopee_order.png" alt="Shopee">
+                <span>Pesan Melalui Shopee</span>
+            </a>
+
+            <a href="https://wa.me/6287845351334" class="sn-btn-katalog-wa">
+                <img src="images/logo_wa_order.png" alt="WhatsApp">
+                <span>Pesan Melalui WhatsApp</span>
+            </a>
+        </div>
+
+<!-- PRODUK 2 Cocoa Amore -->
+        <div class="sn-package-wrap">
+            <h4>Cocoa Amore</h4>
+            <div class="sn-rating">
+                <div class="sn-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+            </div>
+                <p>Nilai 5.0 / 5.0</p>
+            </div>
+            <div class="sn-image-container">
+                <img src="images/cocoa_amore_katalog.JPG" alt="" class="sn-img-katalog">
+                <div class="sn-discount-circle">-30%</div>
+            </div>
+
+            <div class="sn-price">
+                <div id="price">Rp 69.300</div>
+                <div id="old-price">Rp 99.000</div>
+            </div>
+
+            <div class="sn-paket">
+                <p> Lebih hemat! Beli 3 dapat tambahan diskon 10% </p>
+            </div>
+                <ul class="sn-list">
+                    <li><span>TOP NOTES</span> : Sweet Orange, Coffee</li>
+                    <li><span>MIDDLE NOTES</span> : Jasmine, Tonka Bean, Fresh Pear</li>
+                    <li><span>BASE NOTES</span> : Sweet Vanilla, Sweet Chocolate, Cedarwood</li>
+                </ul>
+            <a href="https://s.shopee.co.id/5ppEy7qG6W" class="sn-btn-katalog-shopee">
+                <img src="images/logo_shopee_order.png" alt="Shopee">
+                <span>Pesan Melalui Shopee</span>
+            </a>
+
+            <a href="https://wa.me/6287845351334" class="sn-btn-katalog-wa">
+                <img src="images/logo_wa_order.png" alt="WhatsApp">
+                <span>Pesan Melalui WhatsApp</span>
+            </a>
+      
+        </div>
+
+<!-- PRODUK 4 Cocoa Amore intense -->
+        <div class="sn-package-wrap">
+            <h4>Cocoa Amore intense</h4>
+            <div class="sn-rating">
+                <div class="sn-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+            </div>
+                <p>Nilai 5.0 / 5.0</p>
+            </div>
+            <div class="sn-image-container">
+                <img src="images/cocoa_amore_intense_katalog.jpeg" alt="" class="sn-img-katalog">
+                <div class="sn-discount-circle">-30%</div>
+            </div>
+
+            <div class="sn-price">
+                <div id="price">Rp 69.300</div>
+                <div id="old-price">Rp 99.000</div>
+            </div>
+
+            <div class="sn-paket">
+                <p> Lebih hemat! Beli 3 dapat tambahan diskon 10% </p>
+            </div>
+                <ul class="sn-list">
+                    <li><span>TOP NOTES</span> : Floral, Powdery</li>
+                    <li><span>MIDDLE NOTES</span> : Rose, Coffee, Tonka Bean, Sweet Orange, Fresh Pear</li>
+                    <li><span>BASE NOTES</span> : Sweet Vanilla, Sweet Chocolate, Amber, Musky</li>
+                </ul>
+            <a href="https://s.shopee.co.id/9A5ZnmL3Ms" class="sn-btn-katalog-shopee">
+                <img src="images/logo_shopee_order.png" alt="Shopee">
+                <span>Pesan Melalui Shopee</span>
+            </a>
+
+            <a href="https://wa.me/6287845351334" class="sn-btn-katalog-wa">
+                <img src="images/logo_wa_order.png" alt="WhatsApp">
+                <span>Pesan Melalui WhatsApp</span>
+            </a>
+       
+        </div>
+
+
+<!-- PRODUK 6 Cocoa Amore Seduction -->
+        <div class="sn-package-wrap">
+            <h4>Cocoa Amore Seduction</h4>
+            <div class="sn-rating">
+                <div class="sn-stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+            </div>
+                <p>Nilai 5.0 / 5.0</p>
+            </div>
+            <div class="sn-image-container">
+                <img src="images/cocoa_amore_seduction_katalog.jpeg" alt="" class="sn-img-katalog">
+                <div class="sn-discount-circle">-30%</div>
+            </div>
+
+            <div class="sn-price">
+                <div id="price">Rp 69.300</div>
+                <div id="old-price">Rp 99.000</div>
+            </div>
+
+            <div class="sn-paket">
+                <p> Lebih hemat! Beli 3 dapat tambahan diskon 10% </p>
+            </div>
+                <ul class="sn-list">
+                    <li><span>TOP NOTES</span> :  Bergamot, Cinnamon, Coffee</li>
+                    <li><span>MIDDLE NOTES</span> :  Tonka Bean, Powdery</li>
+                    <li><span>BASE NOTES</span> : Vanilla, Praline, Sandalwood, Amber</li>
+                </ul>
+            <a href="https://s.shopee.co.id/7fGm15gGWq" class="sn-btn-katalog-shopee">
+                <img src="images/logo_shopee_order.png" alt="Shopee">
+                <span>Pesan Melalui Shopee</span>
+            </a>
+
+            <a href="https://wa.me/6287845351334" class="sn-btn-katalog-wa">
+                <img src="images/logo_wa_order.png" alt="WhatsApp">
+                <span>Pesan Melalui WhatsApp</span>
+            </a>
+           
+        </div>
+</section>
+
+<!-- ------------------------------------------- ULASAN ------------------------------------------------------------------ -->
+        <section id="sn-reviews" class="landing-ulasan">
+            <div class="sn-container text-center">
+                <div class="sn-title">
+                    <h2>Ulasan</h2>
+                </div>
+            </div>
+            <div class="sn-container-ulasan text-center">
+                <div class="sn-review-slider">
+                    <div class="sn-comment">
+                        <div class="thumb">
+                            <img src="images/ulasan-1.jpeg" alt="" > 
+                        </div>
+                        <div class="sn-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="snippet">Cocoa Amore</p>
+                        <p class="message">"Menurutku ini best perfume yang pernah aku beli, bahkan lebih enak baunya dibanding brand” terkenal. Uda beberapa kali pake tetep aja ga bosen” n wanginya longlast yaaa🥰 Dibilas setelah mandi pun masi kecium sampe besok. Pokoknya must buy sih!! 🫶🏻🫶🏻"</p>
+                        <p class="name">@devx_t</p>
+                    </div>
+                    <div class="sn-comment">
+                        <div class="thumb">
+                        <img src="images/ulasan-anonym.jpg" alt="" > 
+                        </div>
+                        <div class="sn-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="snippet">Cocoa Amore Seduction</h4>
+                        <p class="message">"Packaging simpel tapi elegan, wanginya enak, cocok buat yg suka aroma strong. Auto gantiin parfum di rumah 😁"</p>
+                        <p class="name">@q*****i</p>
+                    </div>
+                    <div class="sn-comment">
+                        <div class="thumb">
+                            <img src="images/ulasan-3.jpeg" alt="" > 
+                        </div>
+                        <div class="sn-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="snippet">Tranquility Forte</h4>
+                        <p class="message">"Buat harga segini, tahan lama bgt seharian dipake jalan lebih dri 8 jam👍🏻👍🏻"</p>
+                        <p class="name">@c*****9</p>
+                    </div>
+                    <div class="sn-comment">
+                        <div class="thumb">
+                            <img src="images/ulasan-anonym.jpg" alt="" > 
+                            </div>
+                        <div class="sn-stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h4 class="snippet">Tranquility Forte</h4>
+                        <p class="message">"Bau nya enak banget dan ga pasaran. Cocok banget buat activity apapun karena cocok di segala occasions dan tahan lama bgtt. Sweet with a touch of freshness nya dapet bangetg"</p>
+                        <p class="name">@vinkarenwibowo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <section id="sn-kontak" class="landing-kontak">
+        <div class="sn-container text-center">
+            <div class="sn-kontak-in">
+                <h2>Kontak</h2>
+            <div class="social-icons-kontak">
+                <ul style="list-style-type: none; padding: 0;">
+
+                    <li>
+                        <a href="https://shopee.co.id/snsfragrance" target="_blank" class="social-icon">
+                            <img src="images/logo_shopee.png">
+                            <span>SNS Fragrance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://wa.me/6287845351334" target="_blank" class="social-icon">
+                            <img src="images/logo_wa.png">
+                            <span>SNS Fragrance</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/snsfragrance.id/" target="_blank" class="social-icon">
+                            <img src="images/logo_instagram.png">
+                            <span>@snsfragrance.id</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+        <footer>
+            <div class="footer-container">
+                </div>
+                <p class="credits">© 2024 SNS Fragrance. All rights reserved.</p>
+            </div>
+        </div>
+        </footer>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.sn-review-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    }, {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    }, {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+            $('.main-slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: false,
+                infinite: true,
+                autoplay: true,
+                asNavFor: '.thumb-slider'
+            });
+            $('.thumb-slider').slick({
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                dots: false,
+                infinite: true,
+                autoplay: true,
+                asNavFor: '.main-slider',
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    }, {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    }, {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+</html>
